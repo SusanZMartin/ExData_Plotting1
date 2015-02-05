@@ -52,7 +52,7 @@ par(mfcol = c(2,2))
 
 ## put in plot 1 for the plotting area (which is plot 2 created earlier)
 
-plot(newHHpwr$newdateandtime, as.numeric(newHHpwr$GlobalActivePower), type = "l", xlab = "", ylab = "Global Active Power (kilowatts)")
+plot(newHHpwr$newdateandtime, as.numeric(newHHpwr$GlobalActivePower), type = "l", xlab = "", ylab = "Global Active Power")
 
 ## put in plot 2 for the plotting area (which is plot 3 created earlier)
 
