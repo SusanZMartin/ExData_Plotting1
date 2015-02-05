@@ -64,8 +64,6 @@ text.col = "black", lty = c(1, 1, 1), pch = c(NA, NA, NA),
 merge = TRUE, cex = 0.8 )
 
 
-## copy to file as 480 x 480 pixels
-
-
+## don't forget to turn off the graphics device
 
 dev.off()
