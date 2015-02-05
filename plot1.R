@@ -19,7 +19,7 @@ householdpwr <- read.csv2("household_power_consumption.txt", sep=";", quote = "\
 
 names(householdpwr) <- c("OldDate", "OldTime", "GlobalActivePower","GlobalReactivePower", "Voltage", "GlobalIntensity", "SubMetering1", "SubMetering2", "SubMetering3")
 
-## add a zero to month numbers so that 30/1/2007 becomes 30/01/2007 and then
+## add a zero to month and day numbers so that 2/2/2007 becomes 02/02/2007 and then
 ## convert to proper format using as.Date
 
 testHHpwr <- gsub("/2/","/02/", householdpwr[,1])
